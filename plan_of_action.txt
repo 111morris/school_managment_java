@@ -1,5 +1,22 @@
-1. preparing project
-2. building musicplayer gui
-3. coding musicPlayer logic(backend)
-4. connecting logic to gui
-5. bug fixes
+create school managment system
+    students, teachers and the funds
+
+
+
+money management system for school
+keep track of student total fees
+fees that is already paid
+teachers salary
+
+
+//school
+Teachers
+students
+total money spent
+total money spent - teachers salary
+
+
+//teacher
+teachersId
+teachersName
+teachersSalary
