@@ -19,4 +19,12 @@ public class Student {
     this.name = name;
     this.grade = grade;
   }
+  public void setGrade(int grade){
+    this.grade = grade;
+  }
+
+  public void updateFeesPaid(int fees){
+
+  }
 }
+
