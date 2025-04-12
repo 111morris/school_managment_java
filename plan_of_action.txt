@@ -20,3 +20,13 @@ total money spent - teachers salary
 teachersId
 teachersName
 teachersSalary
+
+//student object
+studentId
+studentName
+studentClass
+studentGrade
+fessPaid
+feesTotal
+
+OOP
