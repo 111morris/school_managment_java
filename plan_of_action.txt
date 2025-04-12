@@ -1,0 +1,5 @@
+1. preparing project
+2. building musicplayer gui
+3. coding musicPlayer logic(backend)
+4. connecting logic to gui
+5. bug fixes
