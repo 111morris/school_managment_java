@@ -18,7 +18,17 @@ public class Teacher {
         this.name = name;
         this.salary = salary;
     }
+
+    /*
+    these are the getters
+     */
     public String getName(){
         return this.name;
+    }
+    public int getId(){
+        return this.id;
+    }
+    public int getSalary(){
+        return salary;
     }
 }
