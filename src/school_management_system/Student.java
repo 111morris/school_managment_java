@@ -23,6 +23,11 @@ public class Student {
     this.grade = grade;
   }
 
+  /*
+  add the fees to the fees paid  
+  the school is going to receive teh funds
+
+   */
   public void updateFeesPaid(int fees){
 
   }
