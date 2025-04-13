@@ -31,4 +31,12 @@ public class Teacher {
     public int getSalary(){
         return salary;
     }
+
+    /*
+    these are the setters
+     */
+
+    public void setSalary(int salary){
+        this.salary = salary;
+    }
 }
