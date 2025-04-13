@@ -6,4 +6,16 @@ public class Teacher {
     private int id;
     private String name;
     private int salary;
+
+    /**
+     * this creates a new teacher object
+     * @param id for the teacher
+     * @param name of the teacher
+     * @param salary of the teacher
+     */
+    public Teacher(int id, String name, int salary){
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
 }
