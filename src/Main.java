@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println(" "+kmc.getTotalMoneyEarned());
 
-        tamasha.
+        tamasha.payFees(1000);
     }
 
 }
