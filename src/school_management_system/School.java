@@ -24,4 +24,32 @@ public class School {
         totalMoneySpent = 0;
     }
 
+    /**
+     * getters
+     *
+     */
+    public List<Teacher> getTeachers(){
+        return teachers;
+    }
+    public List<Student> getStudents(){
+        return students;
+    }
+    public int getTotalMoneyEarned(){
+        return totalMoneyEarned;
+    }
+    public int getTotalMoneySpent(){
+        return totalMoneySpent;
+    }
+
+    /**
+     * setters
+     */
+    public void setTeachers(List<Teacher> teachers) {
+        this.teachers = teachers;
+    }
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+    public void
+
 }
