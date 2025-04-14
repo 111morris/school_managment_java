@@ -52,6 +52,11 @@ public class School {
     public int getTotalMoneyEarned(){
         return totalMoneyEarned;
     }
+
+    /**
+     *
+     * @return the total money spent by the school
+     */
     public int getTotalMoneySpent(){
         return totalMoneySpent;
     }
@@ -76,10 +81,19 @@ public class School {
         students.add(student);
     }
 
-    public void updateTotalMoneyEarned(int totalMoneyEarned){
-        totalMoneyEarned += totalMoneyEarned;
+    /**
+     * adds the total money earned by the school
+     * @param MoneyEarned money that is supposed to be added
+     */
+    public void updateTotalMoneyEarned(int MoneyEarned){
+        totalMoneyEarned += MoneyEarned;
     }
-    public void setTotalMoneySpent(int totalMoneySpent) {
+
+    /**
+     * update the money that is spent by the school
+     * @param MoneySpent the money
+     */
+    public void upadateTotalMoneySpent(int MoneySpent) {
         this.totalMoneySpent = totalMoneySpent;
     }
 
