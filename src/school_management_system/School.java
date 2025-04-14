@@ -83,18 +83,19 @@ public class School {
 
     /**
      * adds the total money earned by the school
-     * @param MoneyEarned money that is supposed to be added
+     * @param moneyEarned money that is supposed to be added
      */
-    public void updateTotalMoneyEarned(int MoneyEarned){
-        totalMoneyEarned += MoneyEarned;
+    public void updateTotalMoneyEarned(int moneyEarned){
+        totalMoneyEarned += moneyEarned;
     }
 
     /**
-     * update the money that is spent by the school
-     * @param MoneySpent the money
+     * update the money that is spent by the school which is the
+     * salary given by the school to its teachers.
+     * @param moneySpent the money spent by school
      */
-    public void upadateTotalMoneySpent(int MoneySpent) {
-        this.totalMoneySpent = totalMoneySpent;
+    public void upadateTotalMoneySpent(int moneySpent) {
+        totalMoneyEarned -= moneySpent;
     }
 
 }
