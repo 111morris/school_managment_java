@@ -3,10 +3,9 @@ package school_management_system;
 this clas is responsible for keeping the track of teacher's name, id, salary.
  */
 public class Teacher {
-    private int id;
-    private String name;
+    private final int id;
+    private final String name;
     private int salary;
-
     /**
      * this creates a new teacher object
      * @param id for the teacher
@@ -23,10 +22,10 @@ public class Teacher {
     these are the getters
      */
     public String getName(){
-        return this.name;
+        return name;
     }
     public int getId(){
-        return this.id;
+        return id;
     }
     public int getSalary(){
         return salary;
@@ -35,7 +34,6 @@ public class Teacher {
     /*
     these are the setters
      */
-
     public void setSalary(int salary){
         this.salary = salary;
     }
