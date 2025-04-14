@@ -24,12 +24,21 @@ public class Student {
   }
 
   /*
+  feePaid = 10,000 + 5000
   add the fees to the fees paid  
   the school is going to receive teh funds
+   */
+
+  public void updateFeesPaid(int fees){
+    feePaid += fees;
+  }
+
+  /*
 
    */
-  public void updateFeesPaid(int fees){
 
+  public int getId() {
+    return id;
   }
 }
 
