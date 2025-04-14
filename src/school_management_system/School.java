@@ -51,5 +51,11 @@ public class School {
         this.students = students;
     }
 
+    public void setTotalMoneyEarned(int totalMoneyEarned){
+        this.totalMoneyEarned = totalMoneyEarned;
+    }
+    public void setTotalMoneySpent(int totalMoneySpent) {
+        this.totalMoneySpent = totalMoneySpent;
+    }
 
 }
