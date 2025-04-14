@@ -28,12 +28,27 @@ public class School {
      * getters
      *
      */
+
+    /**
+     *
+     * @return the list of teachers into the school
+     */
     public List<Teacher> getTeachers(){
         return teachers;
     }
+
+    /**
+     *
+     * @return the list of students in the school
+     */
     public List<Student> getStudents(){
         return students;
     }
+
+    /**
+     *
+     * @return the total money earned by the school
+     */
     public int getTotalMoneyEarned(){
         return totalMoneyEarned;
     }
@@ -44,15 +59,25 @@ public class School {
     /**
      * setters
      */
-    public void setTeachers(List<Teacher> teachers) {
-        this.teachers = teachers;
-    }
-    public void setStudents(List<Student> students) {
-        this.students = students;
+
+    /**
+     * add a teacher to the school
+     * @param teacher the teacher to be added
+     */
+    public void addTeacher(Teacher teacher) {
+        teachers.add(teacher);
     }
 
-    public void setTotalMoneyEarned(int totalMoneyEarned){
-        this.totalMoneyEarned = totalMoneyEarned;
+    /**
+     * add a student to the school
+     * @param student the student to be added
+     */
+    public void addStudent(Student student) {
+        students.add(student);
+    }
+
+    public void updateTotalMoneyEarned(int totalMoneyEarned){
+        totalMoneyEarned += totalMoneyEarned;
     }
     public void setTotalMoneySpent(int totalMoneySpent) {
         this.totalMoneySpent = totalMoneySpent;
