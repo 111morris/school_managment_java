@@ -31,6 +31,8 @@ public class Main {
 
 
         System.out.println(" "+kmc.getTotalMoneyEarned());
+
+        tamasha.
     }
 
 }

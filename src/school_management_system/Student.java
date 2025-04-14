@@ -29,7 +29,7 @@ public class Student {
   the school is going to receive teh funds
    */
 
-  public void updateFeesPaid(int fees){
+  public void payFees(int fees){
     feePaid += fees;
   }
 
@@ -72,5 +72,14 @@ public class Student {
   public int getFeeTotal(){
     return feeTotal;
   }
+
+  /**
+   *
+   * @return fee paid
+   */
+  public int getRemainingFees(){
+    return feeTotal-feePaid;
+  }
+
 }
 
