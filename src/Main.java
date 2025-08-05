@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Teacher lizzy =  new Teacher(001, "lizzy", 500);
+        Teacher lizzy =  new Teacher(1, "lizzy", 500);
         Teacher mellisa = new Teacher(002, "Mellisa", 700);
         Teacher kelvin = new Teacher(003, "Kelvin", 500);
         Teacher munga = new Teacher(004, "Munga", 600);
@@ -28,11 +28,8 @@ public class Main {
         studentList.add(mango);
 
         School kmc = new School(teacherList, studentList);
-
-
         System.out.println(" "+kmc.getTotalMoneyEarned());
 
         tamasha.payFees(1000);
     }
-
 }
