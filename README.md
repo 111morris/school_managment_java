@@ -1,1 +1,1 @@
-# music player build in java
+# School Managment 
