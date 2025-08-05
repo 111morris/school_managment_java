@@ -30,6 +30,6 @@ public class Main {
         School kmc = new School(teacherList, studentList);
         System.out.println(" "+kmc.getTotalMoneyEarned());
 
-        tamasha.payFees(1000);
+        tamasha.payFees(1000, kmc);
     }
 }

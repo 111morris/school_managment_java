@@ -29,8 +29,9 @@ public class Student {
   the school is going to receive teh funds
    */
 
-  public void payFees(int fees){
+  public void payFees(int fees, School school){
     feePaid += fees;
+    school.updateTotalMoneyEarned(fees);
   }
 
   /**
