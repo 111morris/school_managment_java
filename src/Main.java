@@ -14,8 +14,7 @@ public class Main {
 
         List<Teacher> teacherList = new ArrayList<>();
         teacherList.add(lizzy);
-        teacherList.add(mellisa);
-        teacherList.add(kelvin);
+        teacherList.add(munga);
 
         Student tamasha = new Student(2000, "Tamasha", 4);
         Student rash = new Student(2001, "rashid", 12);
